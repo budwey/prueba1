@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="../Proyecto Bootstrap 1/js/jquery-3.5.1.min.js"></script>
+    <script src="../Proyecto Bootstrap 1/js/popper.min.js"></script>
+    <script src="../Proyecto Bootstrap 1/js/bootstrap.min.js"></script>
+
+<!-- Comienzo del documento -->
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center" style="min-width: 580px;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a href="#" class="d-flex justify-content-center m-auto pt-1 text-white inicio-movil" style="text-decoration: none;">
+      <img src="../Proyecto Bootstrap 1/images/abre.svg" width="30" height="30" alt="" loading="lazy">
+      <h3 class="display-5">Logo</h3>
+      <img src="../Proyecto Bootstrap 1/images/cierra.svg" width="30" height="30" alt="" loading="lazy">
+    </a>
+    <a class="navbar-brand buscar" href="#">
+        <img src="./images/buscar.svg" width="30" height="30" alt="" loading="lazy">
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link active inicio-nav" href="#">Inicio</a>
+        <a class="nav-link" href="#">Nosotros</a>
+        <a class="nav-link" href="#">Social</a>
+        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link registro-nav" href="#">Registrate</a>
+
+      </div>
+    </div>
+    </a>
+    <button type="button" class="btn btn-info registro ml-3">Registrarse</button>
+</nav>
+
+<!-- Fin Navbar -->
+
+<!-- Slider -->
+
+<div class="container-fluid" style="min-width: 580px;">
+  <div class="fondo-slider pt-0,5">
+    <h2 class="display-3 text-center text-white font-weight-normal">Mi primera web</h2>
+    <p class="display-4 text-center text-white font-weight-light">Texto de prueba</p>
+    <p class="text-center text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, vitae.</p>
+    <div class="container-fluid buscar-slider d-flex justify-content-center">
+      <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="..." aria-label="Search">
+      <button class="btn btn-warning my-2 my-sm-0 mr-1" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Fin Slider -->
+
+<!-- Contenido -->
+
+<div class="container mt-3" style="min-width: 580px;">
+  <p class="display-4 font-weight-lighter">Sitio</p>
+  <p class="lead">Por Jose Aridane Hdez Baez</p>
+
+  
+<hr>
+
+
+<div class="row">
+
+  <!-- Articulos -->
+  <div class="col-12 col-md-9" style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+    <div class="row articulo">
+
+    <!-- Foto -->
+    <div class="col-3 foto">
+      <img src="../Proyecto Bootstrap 1/images/imagen-contenido.jpg" class="img-fluid" style="border: 1px solid gray;">
+      <p class="lead text-center fecha">Martes 29 Septiembre</p>
+    </div>
+  
+    <!-- Texto -->
+    <div class="col-9">
+      <a href="#" style="text-decoration: none; color: black;"><h3 class="mb-0">Titulo de Articulo</h3></a>
+      <a href="#"><span class="badge badge-primary btn-sm">Novedad</span></a>
+      <a href="#"><span class="badge badge-secondary btn-sm">Politica</span></a>
+
+      <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quasi deserunt illum assumenda ipsam, animi in sint voluptatibus quibusdam neque aut qui quo vel velit, voluptate eum! Minus ab necessitatibus alias repellat itaque ducimus illo quibusdam. Incidunt at non deserunt.</p>
+
+      <button type="button" class="btn btn-warning mb-5" style="float: right;">Leer mas</button>
+    </div>
+
+
+  </div>
+  </div>
+  <!-- Fin Articulos -->
+  
+  <!-- aside -->
+  <div class="d-none d-sm-none d-md-block col-md 3 col-lg-3">
+
+    <div class="card text-white bg-dark tarjeta-1">
+      <div class="card-header">Header</div>
+      <div class="card-body">
+        <h5 class="card-title">Dark card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+
+  </div>
+    <!-- Fin Aside -->
+
+  <!-- Articulos -->
+  <div class="col-sm-12 col-md-9" style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+    <div class="row articulo">
+
+    <!-- Foto -->
+    <div class="col-3 foto">
+      <img src="../Proyecto Bootstrap 1/images/imagen-contenido.jpg" class="img-fluid" style="border: 1px solid gray;">
+      <p class="lead text-center fecha">Martes 29 Septiembre</p>
+    </div>
+  
+    <!-- Texto -->
+    <div class="col-9">
+      <a href="#" style="text-decoration: none; color: black;"><h3 class="mb-0">Titulo de Articulo</h3></a>
+      <a href="#"><span class="badge badge-primary btn-sm">Novedad</span></a>
+      <a href="#"><span class="badge badge-secondary btn-sm">Politica</span></a>
+
+      <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quasi deserunt illum assumenda ipsam, animi in sint voluptatibus quibusdam neque aut qui quo vel velit, voluptate eum! Minus ab necessitatibus alias repellat itaque ducimus illo quibusdam. Incidunt at non deserunt.</p>
+
+      <button type="button" class="btn btn-warning mb-5" style="float: right;">Leer mas</button>
+    </div>
+
+  </div>
+  </div>
+  <!-- Fin Articulos -->
+  
+  <!-- aside -->
+  <div class="d-none d-sm-none d-md-block col-md 3 col-lg-3">
+
+    <div class="card text-white bg-info tarjeta-2">
+      <div class="card-header">Header</div>
+      <div class="card-body">
+        <h5 class="card-title">Info card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Aside -->
+
+   <!-- Articulos -->
+  <div class="col-12 col-md-9 articulo" style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+    <div class="row articulo">
+
+    <!-- Foto -->
+    <div class="col-3 foto">
+      <img src="../Proyecto Bootstrap 1/images/imagen-contenido.jpg" class="img-fluid" style="border: 1px solid gray;">
+      <p class="lead text-center fecha">Martes 29 Septiembre</p>
+    </div>
+  
+    <!-- Texto -->
+    <div class="col-9">
+      <a href="#" style="text-decoration: none; color: black;"><h3 class="mb-0">Titulo de Articulo</h3></a>
+      <a href="#"><span class="badge badge-primary btn-sm">Novedad</span></a>
+      <a href="#"><span class="badge badge-secondary btn-sm">Politica</span></a>
+
+      <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quasi deserunt illum assumenda ipsam, animi in sint voluptatibus quibusdam neque aut qui quo vel velit, voluptate eum! Minus ab necessitatibus alias repellat itaque ducimus illo quibusdam. Incidunt at non deserunt.</p>
+      
+      <button type="button" class="btn btn-warning mb-5" style="float: right;">Leer mas</button>
+    </div>
+
+    </div>
+  </div>
+  <!-- Fin Articulos -->
+  
+  <!-- aside -->
+  <div class="d-none d-sm-none d-md-block col-md 3 col-lg-3">
+
+    <div class="card text-white bg-success  tarjeta-3">
+      <div class="card-header">Header</div>
+      <div class="card-body">
+        <h5 class="card-title">Success card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Fin Aside -->   
+
+  
+</div>
+
+<hr style="margin-top: -40px;">
+
+</div>
+
+
+
+
+
+<!-- Paginacion -->
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center" style="min-width: 580px;">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+    </li>
+    <li class="page-item"><a class="page-link text-black-50" href="#">1</a></li>
+    <li class="page-item"><a class="page-link text-black-50" href="#">2</a></li>
+    <li class="page-item"><a class="page-link text-black-50" href="#">3</a></li>
+    <li class="page-item"><a class="page-link text-black-50" href="#">4</a></li>
+    <li class="page-item"><a class="page-link text-black-50" href="#">5</a></li>
+    <li class="page-item"><a class="page-link text-black-50" href="#">6</a></li>
+    <li class="page-item">
+      <a class="page-link text-black-50" href="#">Final</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Fin Paginacion -->
+
+<!-- Footer -->
+
+<footer>
+  <div class="container-fluid text-white text-center bg-dark d-flex align-items-center justify-content-center" style="height: 100px;">
+    <p>Espero que os haya gustado mi primera web. Un saludo</p>
+  </div>
+  </footer>
+
+
+<!-- Fin Footer -->
+
+
+</body>
+</html>
